@@ -15,3 +15,37 @@ The ultimate business goal of this project is to build a predictive model that c
 
 Optimize car design and features to align with target price levels. Formulate an effective business strategy tailored to the dynamics of the US market.
 
+## Project Overview
+
+### Data Preprocessing:
+
+Handled missing values by filling numerical columns with their mean and categorical columns with their mode.
+Visualized outliers using boxplots and identified outliers using the Z-score method.
+
+### Outlier Handling:
+
+Removed outliers based on Z-scores to clean the dataset for better model performance.
+
+### Skewness Handling:
+
+Applied Box-Cox transformation to reduce skewness in numerical features.
+
+### Feature Encoding:
+
+Utilized One-Hot Encoding to convert categorical variables into a numerical format suitable for regression analysis.
+
+### Model Implementation:
+
+Implemented various regression algorithms including Linear Regression, Decision Tree Regressor, Random Forest Regressor, Gradient Boosting Regressor, and Support Vector Regressor.
+
+### Hyperparameter Tuning:
+
+Performed hyperparameter tuning on the Random Forest model using Grid Search to optimize its performance.
+
+### Model Evaluation:
+
+Compared model performance using metrics such as R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE).
+
+## Results 
+
+The Random Forest model emerged as the best-performing model, demonstrating a significant ability to predict car prices accurately. Hyperparameter tuning further improved its performance metrics.
